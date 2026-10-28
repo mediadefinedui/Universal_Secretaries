@@ -1429,7 +1429,7 @@ Helper Class
 
 [data-overlay="6"]:before,
 [data-black-overlay="6"]:before {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 [data-overlay="7"]:before,

@@ -185,3 +185,72 @@ body.appt-modal-lock {
   outline: 2px solid #0084cc;
   outline-offset: 2px;
 }
+
+/* ===== Modal shell: rounded + scrollable ===== */
+.appt-modal-shell {
+  border-radius: 28px;          /* match your current radius */
+  overflow-x: hidden;
+  overflow-y: auto;             /* scroll lives on the rounded shell */
+  background-clip: padding-box;
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #757575 transparent;
+}
+
+/* Chrome / Edge / Safari */
+.appt-modal-shell::-webkit-scrollbar {
+  width: 10px;
+}
+
+.appt-modal-shell::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 999px;
+  margin-block: 28px;           /* keep the track clear of the rounded corners (≥ border-radius) */
+}
+
+.appt-modal-shell::-webkit-scrollbar-thumb {
+  background: #b7c3d4;
+  border-radius: 999px;
+  border: 2px solid transparent; /* inset look, thumb floats off the edge */
+  background-clip: padding-box;
+}
+
+.appt-modal-shell::-webkit-scrollbar-thumb:hover {
+  background: #0088cc;           /* your brand blue */
+  background-clip: padding-box;
+}
+
+/* ===== Horizontal day scroller ===== */
+.day-scroll-track {
+  scrollbar-width: thin;
+  scrollbar-color: #b7c3d4 #e3e9f2;
+}
+
+.day-scroll-track::-webkit-scrollbar {
+  height: 8px;
+}
+
+.day-scroll-track::-webkit-scrollbar-track {
+  background: #e3e9f2;
+  border-radius: 999px;
+}
+
+.day-scroll-track::-webkit-scrollbar-thumb {
+  background: #b7c3d4;
+  border-radius: 999px;
+}
+
+.day-scroll-track::-webkit-scrollbar-thumb:hover {
+  background: #0088cc;
+}
+
+/* Hide the little arrow buttons (the ◂ ▸ in your screenshot) */
+.day-scroll-track::-webkit-scrollbar-button,
+.appt-modal-shell::-webkit-scrollbar-button {
+  display: none;
+}
+
+.appt-modal-overlay.appt-modal--open .appt-modal-shell {
+    border-radius: 16px;
+}
