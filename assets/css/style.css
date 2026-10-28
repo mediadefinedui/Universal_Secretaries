@@ -2665,6 +2665,9 @@ Breadcrumb Styles
   background-image: url(../images/banner/feature-banner.webp) no-repeat scroll center center;
   background: url(../images/banner/feature-banner.webp) no-repeat scroll center center;
   background-size: cover;
+  background-size: contain;
+    background-position: right;
+    background-color: #97d6df !important;
 }
 
 .services-banner{
