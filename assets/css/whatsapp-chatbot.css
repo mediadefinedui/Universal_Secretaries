@@ -5,7 +5,7 @@
 
 /* Adjust back-to-top button so it doesn't collide with WhatsApp bubble */
 #backBTn {
-  bottom: 150px !important;
+  bottom: 200px !important;
   right: 28px !important;
   z-index: 999 !important;
 }
