@@ -120,7 +120,7 @@
             </button>
           </div>
           <a href="#" class="wa-direct-btn" id="waDirectBtn" target="_blank">
-            <i class="fa fa-whatsapp"></i> Chat on WhatsApp (+94 77 660 0799)
+            <i class="fa fa-whatsapp"></i> Chat on WhatsApp (+94 77 40 87 869)
           </a>
         </div>
       </div>
