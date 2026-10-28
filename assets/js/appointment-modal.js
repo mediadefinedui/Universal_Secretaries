@@ -587,7 +587,7 @@
     generateModalIcs(booking.id, booking.teamsMeetingUrl, booking.date, booking.timeSlot, client);
 
     // WhatsApp
-    var consultantPhone  = (window.CONSULTANT_CONFIG && window.CONSULTANT_CONFIG.whatsappNumber) || '94776600799';
+    var consultantPhone  = (window.CONSULTANT_CONFIG && window.CONSULTANT_CONFIG.whatsappNumber) || '94774087869';
     var whatsappMsg =
       '🇱🇰 *NEW CONSULTATION BOOKING*\n' +
       '━━━━━━━━━━━━━━━━━━━━━━\n' +

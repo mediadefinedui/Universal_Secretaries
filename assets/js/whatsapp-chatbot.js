@@ -1,6 +1,6 @@
 /**
  * Whole Site WhatsApp Chatbot Bubble Widget
- * Connected to Sri Lankan Single Consultant (+94776600799)
+ * Connected to Sri Lankan Single Consultant (+94774087869)
  */
 
 (function () {
@@ -9,7 +9,7 @@
   // =========================================================================
   // SRI LANKAN CONSULTANT WHATSAPP NUMBER
   // =========================================================================
-  const CONSULTANT_WHATSAPP_NUMBER = '94776600799';
+  const CONSULTANT_WHATSAPP_NUMBER = '94774087869';
   const CONSULTANT_DISPLAY_NAME = 'Sri Lankan Consultant';
   const CONSULTANT_STATUS = 'Online • Typically replies instantly';
 

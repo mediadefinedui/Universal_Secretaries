@@ -71,7 +71,7 @@ NODE_ENV=development
 # Consultant Details (Sri Lanka Time UTC+5:30)
 CONSULTANT_NAME="Senior Tax & Corporate Advisor"
 CONSULTANT_EMAIL="tax@universalsecretaries.com"
-CONSULTANT_PHONE="94776600799"
+CONSULTANT_PHONE="94774087869"
 CONSULTANT_TIMEZONE="Asia/Colombo"
 
 # Microsoft 365 / Entra ID Credentials

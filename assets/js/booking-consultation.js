@@ -13,7 +13,7 @@
   'use strict';
 
   // Consultant Configuration (Sri Lanka UTC+5:30)
-  const CONSULTANT_MOBILE_NUMBER = '94776600799';
+  const CONSULTANT_MOBILE_NUMBER = '94774087869';
 
   window.CONSULTANT_CONFIG = {
     whatsappNumber: CONSULTANT_MOBILE_NUMBER,
