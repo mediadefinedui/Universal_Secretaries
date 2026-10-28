@@ -1,0 +1,698 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Universal Secretaries</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.webp">
+
+	<!-- Google font (font-family: 'Josefin Sans', sans-serif;) -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+
+	<!-- CSS
+	============================================ -->
+
+	<!-- Icon Font CSS -->
+	<link rel="stylesheet" href="assets/css/plugins/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/flaticon.css">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/fakeloader.css">
+	<link rel="stylesheet" href="assets/css/plugins/meanmenu.css">
+	<link rel="stylesheet" href="assets/css/plugins/slick.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/animated-headline.css">
+	<link rel="stylesheet" href="assets/css/plugins/youtubepopup.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/calender.css">
+	<link rel="stylesheet" href="assets/css/plugins/plyr.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/select2.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/datepicker.min.css">
+
+	<!-- Main Style CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Plus Jakarta Sans for modal form -->
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<!-- Book Consultation Custom Style CSS (used in appointment modal) -->
+	<link rel="stylesheet" href="assets/css/booking-consultation.css">
+	<!-- Appointment Popup Modal CSS -->
+	<link rel="stylesheet" href="assets/css/appointment-modal.css">
+
+</head>
+
+<body>
+
+	<div class="fakeloader"></div>
+
+	<!-- Main wrapper -->
+	<div class="wrapper" id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="header sticky--header">
+
+			<!-- Header Top Area -->
+			<div class="header__top bg--blue d-none d-lg-block">
+				<div class="container">
+					<div class="header__top__inner">
+						<ul class="header__top__info">
+							<li>
+								<a href="#"><i class="flaticon-old-typical-phone"></i> +94 77 40 87 869</a>
+							</li>
+							<li>
+								<a href="#"><i class="flaticon-black-back-closed-envelope-shape"></i>
+									tax@universalsecretaries.com</a>
+							</li>
+						</ul>
+						<div class="header__top__button">
+							<a class="cr-btn cr-btn--lg" href="appointment.html">
+								<span>Make an appointment</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Header Top Area -->
+
+			<!-- Header Bottom Area -->
+			<div class="header__bottom bg--white">
+				<div class="container">
+					<div class="header__bottom__inner">
+
+						<div class="header__logo">
+							<a href="index.html">
+								<img src="assets/images/logo/logo-theme.webp" alt="header logo">
+							</a>
+						</div>
+
+						<!-- Main Navigation -->
+						<nav id="main-navigation" class="header__menu main-navigation d-none d-lg-flex">
+							<ul>
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li><a href="features.html">FEATURES</a></li>
+								<li><a href="services.html">SERVICES</a></li>
+								<li><a href="about-us.html">ABOUT</a></li>
+								<li><a href="contact.html">CONTACT</a></li>
+							</ul>
+						</nav>
+						<!--// Main Navigation -->
+
+						<button class="header__toggle d-lg-none" data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasMenu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+
+			</div>
+			<!--// Header Bottom Area -->
+
+		</header>
+		<!-- //Header -->
+
+		<!-- Breadcrumb Area -->
+		<div id="cr-breadcrumb-area" class="cr-breadcrumb-area section-padding--md">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-5 col-lg-6 col-md-8">
+						<div class="cr-breadcrumb">
+							<ul class="cr-breadcrumb__pagination">
+								<li><a href="index.html">Home</a></li>
+								<li>Advisor</li>
+							</ul>
+							<h1>Our Advisors</h1>
+							<p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+								laudantium, totam rem </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--// Breadcrumb Area -->
+
+		<!-- Offcanvas -->
+		<div class="offcanvas offcanvas-start" tabindex="2" id="offcanvasMenu">
+			<div class="offcanvas-header">
+				<div class="offcanvas__logo">
+					<a href="index.html">
+						<img src="assets/images/logo/logo-theme.webp" alt="header logo">
+					</a>
+				</div>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+					aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+
+				<ul class="offcanvas__info">
+					<li>
+						<a href="#"><i class="flaticon-old-typical-phone"></i> +94 77 40 87 869</a>
+					</li>
+					<li>
+						<a href="#"><i class="flaticon-black-back-closed-envelope-shape"></i>
+							tax@universalsecretaries.com</a>
+					</li>
+				</ul>
+
+				<!-- Main Navigation -->
+				<nav class="canvas-menu">
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+							<ul class="sub-menu">
+								<li><a href="index.html">Homepage Classic</a></li>
+								<li><a href="index-2.html">Homepage Interactive</a></li>
+								<li><a href="index-3.html">Homepage Modern</a></li>
+								<li><a href="index-with-content-slider.html">Homepage Content Slider</a></li>
+								<li><a href="index-with-single-banner.html">Homepage Single Banner</a></li>
+								<li><a href="index-boxed-layout.html">Homepage Boxed Layout</a></li>
+							</ul>
+						</li>
+						<li><a href="about-us.html">ABOUT</a></li>
+						<li><a href="features.html">FEATURES</a></li>
+						<li>
+							<a href="services.html">SERVICE</a>
+							<ul class="sub-menu">
+								<li><a href="services.html">Services</a></li>
+								<li><a href="services-2.html">Services Style 2</a></li>
+								<li><a href="single-service.html">Single Service</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">PAGES</a>
+							<ul class="sub-menu">
+								<li><a href="about-us.html">ABOUT</a></li>
+								<li>
+									<a href="blog.html">BLOG</a>
+									<ul class="sub-menu">
+										<li><a href="blog.html">Blog</a></li>
+										<li><a href="blog-with-right-sidebar.html">Blog With Right Sidebar</a></li>
+										<li><a href="blog-with-left-sidebar.html">Blog With Left Sidebar</a></li>
+										<li><a href="blog-details.html">Blog Details</a></li>
+										<li><a href="blog-details-with-left-sidebar.html">Blog Details With Left
+												Sidebar</a></li>
+										<li><a href="blog-details-with-video.html">Blog Details With Video</a></li>
+										<li><a href="blog-details-with-slider.html">Blog Details With Slider</a></li>
+									</ul>
+								</li>
+								<li><a href="features.html">FEATURES</a></li>
+								<li>
+									<a href="services.html">SERVICE</a>
+									<ul class="sub-menu">
+										<li><a href="services.html">Services</a></li>
+										<li><a href="services-2.html">Services Style 2</a></li>
+										<li><a href="single-service.html">Single Service</a></li>
+									</ul>
+								</li>
+								<li><a href="advisors.html">Advisors</a></li>
+								<li><a href="advisor-details.html">Advisor Details</a></li>
+								<li><a href="appointment.html">Appointment</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="blog.html">BLOG</a>
+							<ul class="sub-menu">
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="blog-with-right-sidebar.html">Blog With Right Sidebar</a></li>
+								<li><a href="blog-with-left-sidebar.html">Blog With Left Sidebar</a></li>
+								<li><a href="blog-details.html">Blog Details</a></li>
+								<li><a href="blog-details-with-left-sidebar.html">Blog Details With Left Sidebar</a>
+								</li>
+								<li><a href="blog-details-with-video.html">Blog Details With Video</a></li>
+								<li><a href="blog-details-with-slider.html">Blog Details With Slider</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+				<!--// Main Navigation -->
+
+				<div class="offcanvas__button">
+					<a class="cr-btn cr-btn--lg" href="appointment.html">
+						<span>Make an appointment</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- //Offcanvas -->
+
+		<!-- Page Conent -->
+		<main class="page-content">
+
+			<!-- Team Area -->
+			<section id="team-area" class="advisor-area bg--white section-padding--xlg">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-10">
+							<div class="section-title text-center">
+								<h4>OUR TEAM</h4>
+								<h2>MEET OUR <span class="color--theme">TAX ADVISOR</span></h2>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+									laudantium, totam rem aperiam, eaque ipsa quae</p>
+							</div>
+						</div>
+					</div>
+					<div class="row advisors">
+
+						<!-- Single Advisor -->
+						<div class="col-lg-3 col-sm-6">
+							<figure class="advisor">
+								<div class="advisor__image">
+									<img src="assets/images/advisors/advisor-1.webp" alt="team member">
+								</div>
+								<figcaption class="advisor__content">
+									<h6><a href="advisor-details.html">SIMON DE ANDERSON</a></h6>
+									<p>Senior Advisor</p>
+								</figcaption>
+							</figure>
+						</div><!--// Single Advisor -->
+
+						<!-- Single Advisor -->
+						<div class="col-lg-3 col-sm-6">
+							<figure class="advisor">
+								<div class="advisor__image">
+									<img src="assets/images/advisors/advisor-2.webp" alt="team member">
+								</div>
+								<figcaption class="advisor__content">
+									<h6><a href="advisor-details.html">JUlia ANDERSON</a></h6>
+									<p>Senior Advisor</p>
+								</figcaption>
+							</figure>
+						</div><!--// Single Advisor -->
+
+						<!-- Single Advisor -->
+						<div class="col-lg-3 col-sm-6">
+							<figure class="advisor">
+								<div class="advisor__image">
+									<img src="assets/images/advisors/advisor-3.webp" alt="team member">
+								</div>
+								<figcaption class="advisor__content">
+									<h6><a href="advisor-details.html">David Miller</a></h6>
+									<p>Tax Advisor</p>
+								</figcaption>
+							</figure>
+						</div><!--// Single Advisor -->
+
+						<!-- Single Advisor -->
+						<div class="col-lg-3 col-sm-6">
+							<figure class="advisor">
+								<div class="advisor__image">
+									<img src="assets/images/advisors/advisor-4.webp" alt="team member">
+								</div>
+								<figcaption class="advisor__content">
+									<h6><a href="advisor-details.html">Martin Smith</a></h6>
+									<p>Tax Advisor</p>
+								</figcaption>
+							</figure>
+						</div><!--// Single Advisor -->
+
+					</div>
+				</div>
+			</section><!--// Team Area -->
+
+			<!-- Team Area -->
+			<section id="team-area-2" class="advisor-area bg--white section-padding-bottom--xlg">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-10">
+							<div class="section-title text-center">
+								<h4>OUR TEAM</h4>
+								<h2>MEET OUR <span class="color--theme">TAX ADVISOR</span></h2>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+									laudantium, totam rem aperiam, eaque ipsa quae</p>
+							</div>
+						</div>
+					</div>
+					<div class="row advisors advisors--style2">
+
+						<!-- Single Advisor -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="advisor advisor--style2">
+								<div class="advisor__image">
+									<img src="assets/images/advisors/advisor-1.webp" alt="team member">
+								</div>
+								<div class="advisor__content">
+									<h5><a href="advisor-details.html">David miller</a></h5>
+									<p>Tax Advisor</p>
+								</div>
+								<div class="advisor__social-icons social-icons">
+									<ul>
+										<li class="facebook"><a href="https://www.facebook.com/"><i
+													class="fa fa-facebook"></i></a></li>
+										<li class="twitter"><a href="https://twitter.com/"><i
+													class="fa fa-twitter"></i></a></li>
+										<li class="instagram"><a href="https://www.instagram.com/"><i
+													class="fa fa-instagram"></i></a></li>
+										<li class="google-plus"><a href="https://plus.google.com/discover"><i
+													class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div><!--// Single Advisor -->
+
+						<!-- Single Advisor -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="advisor advisor--style2">
+								<div class="advisor__image">
+									<img src="assets/images/advisors/advisor-2.webp" alt="team member">
+								</div>
+								<div class="advisor__content">
+									<h5><a href="advisor-details.html">JULIA ANDERSON</a></h5>
+									<p>Tax Advisor</p>
+								</div>
+								<div class="advisor__social-icons social-icons">
+									<ul>
+										<li class="facebook"><a href="https://www.facebook.com/"><i
+													class="fa fa-facebook"></i></a></li>
+										<li class="twitter"><a href="https://twitter.com/"><i
+													class="fa fa-twitter"></i></a></li>
+										<li class="instagram"><a href="https://www.instagram.com/"><i
+													class="fa fa-instagram"></i></a></li>
+										<li class="google-plus"><a href="https://plus.google.com/discover"><i
+													class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div><!--// Single Advisor -->
+
+						<!-- Single Advisor -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="advisor advisor--style2">
+								<div class="advisor__image">
+									<img src="assets/images/advisors/advisor-3.webp" alt="team member">
+								</div>
+								<div class="advisor__content">
+									<h5><a href="advisor-details.html">MARTIN SMITH</a></h5>
+									<p>Tax Advisor</p>
+								</div>
+								<div class="advisor__social-icons social-icons">
+									<ul>
+										<li class="facebook"><a href="https://www.facebook.com/"><i
+													class="fa fa-facebook"></i></a></li>
+										<li class="twitter"><a href="https://twitter.com/"><i
+													class="fa fa-twitter"></i></a></li>
+										<li class="instagram"><a href="https://www.instagram.com/"><i
+													class="fa fa-instagram"></i></a></li>
+										<li class="google-plus"><a href="https://plus.google.com/discover"><i
+													class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div><!--// Single Advisor -->
+
+						<!-- Single Advisor -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="advisor advisor--style2">
+								<div class="advisor__image">
+									<img src="assets/images/advisors/advisor-4.webp" alt="team member">
+								</div>
+								<div class="advisor__content">
+									<h5><a href="advisor-details.html">SIMON COOK</a></h5>
+									<p>Tax Advisor</p>
+								</div>
+								<div class="advisor__social-icons social-icons">
+									<ul>
+										<li class="facebook"><a href="https://www.facebook.com/"><i
+													class="fa fa-facebook"></i></a></li>
+										<li class="twitter"><a href="https://twitter.com/"><i
+													class="fa fa-twitter"></i></a></li>
+										<li class="instagram"><a href="https://www.instagram.com/"><i
+													class="fa fa-instagram"></i></a></li>
+										<li class="google-plus"><a href="https://plus.google.com/discover"><i
+													class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div><!--// Single Advisor -->
+
+					</div>
+				</div>
+			</section><!--// Team Area -->
+
+			<!-- Team Area -->
+			<div id="team-area-3" class="advisor-area section-padding-bottom--xlg bg--white">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-10">
+							<div class="section-title text-center">
+								<h4>OUR TEAM</h4>
+								<h2>MEET OUR <span class="color--theme">TAX ADVISOR</span></h2>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+									laudantium, totam rem aperiam, eaque ipsa quae</p>
+							</div>
+						</div>
+					</div>
+					<div class="team-wrap">
+
+						<!-- Single Team -->
+						<div class="single-team active">
+							<div class="image">
+								<img src="assets/images/advisors/advisor-3/advisor-1.webp" alt="Advisor Thumb">
+							</div>
+							<div class="content">
+								<h6><a href="advisor-details.html">David miller</a></h6>
+								<h6><small>Tax Advisor</small></h6>
+								<p>perspiciatis unde omnisste natus error sit voluptatem accusantium dolore</p>
+								<div class="social-icons">
+									<ul>
+										<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+										<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div><!--// Single Team -->
+
+						<!-- Single Team -->
+						<div class="single-team">
+							<div class="image">
+								<img src="assets/images/advisors/advisor-3/advisor-2.webp" alt="Advisor Thumb">
+							</div>
+							<div class="content">
+								<h6><a href="advisor-details.html">JULIA ANDERSON</a></h6>
+								<h6><small>Tax Advisor</small></h6>
+								<p>perspiciatis unde omnisste natus error sit voluptatem accusantium dolore</p>
+								<div class="social-icons">
+									<ul>
+										<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+										<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div><!--// Single Team -->
+
+						<!-- Single Team -->
+						<div class="single-team">
+							<div class="image"><img src="assets/images/advisors/advisor-3/advisor-3.webp"
+									alt="Advisor Thumb"></div>
+							<div class="content">
+								<h6><a href="advisor-details.html">MARTIN SMITH</a></h6>
+								<h6><small>Tax Advisor</small></h6>
+								<p>perspiciatis unde omnisste natus error sit voluptatem accusantium dolore</p>
+								<div class="social-icons">
+									<ul>
+										<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+										<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div><!--// Single Team -->
+
+						<!-- Single Team -->
+						<div class="single-team">
+							<div class="image"><img src="assets/images/advisors/advisor-3/advisor-4.webp"
+									alt="Advisor Thumb"></div>
+							<div class="content">
+								<h6><a href="advisor-details.html">SIMON COOK</a></h6>
+								<h6><small>Tax Advisor</small></h6>
+								<p>perspiciatis unde omnisste natus error sit voluptatem accusantium dolore</p>
+								<div class="social-icons">
+									<ul>
+										<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+										<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div><!--// Single Team -->
+
+					</div>
+				</div>
+			</div><!--// Team Area -->
+
+			<!-- Call To Action Area -->
+			<section id="cta-area" class="cta-area section-padding--sm bg--grey--light bg--abstruct-mask">
+
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-10">
+							<div class="calltoaction text-center">
+								<h3>NEED ANY HELP AT<span class="color--theme"> YOUR TAX SOLUTION?</span></h3>
+								<p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+									laudantium, totam rem aperiam, eaque ipsa Neque porro quisquam est, qui dolorem
+									ipsum quia dolor sit amet, consectetur, adipisci </p>
+								<h6>JUST DAIL <a href="callto://+00812548359874">+94 77 40 87 869</a> (TOLL FREE)</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!--// Call To Action Area -->
+
+		</main><!-- //Page Conent -->
+
+		<!-- Footer Area -->
+		<footer id="footer" class="footer-area fixed--footer">
+
+			<!-- Footer Widgets Area -->
+			<div class="footer-area__widgets section-padding--md bg--dark--light">
+				<div class="container">
+					<div class="footer-area__logo text-center">
+						<a href="index.html">
+							<img src="assets/images/logo/logo-footer.webp" style="width: 30%;" alt="footer logo">
+						</a>
+					</div>
+
+					<div class="widget-area footer--widgets">
+
+						<!-- Single Widget -->
+						<section class="widget widget-about">
+							<h5 class="widget-title">ABOUT Universal Secretaries</h5>
+							<p>Company secretarial and tax advisory, Sri Lanka. Since 2012.</p>
+							<div class="social-icons social-icons--rounded">
+								<ul>
+									<li class="facebook">
+										<a href="https://www.facebook.com/taxfiling.lk/" target="_blank"
+											rel="noopener noreferrer">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li class="linkedin">
+										<a href="https://www.linkedin.com/company/tax-filing-lk/" target="_blank"
+											rel="noopener noreferrer">
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</li>
+									<li class="youtube">
+										<a href="https://www.youtube.com/@taxfiling_lk" target="_blank"
+											rel="noopener noreferrer">
+											<i class="fa fa-youtube"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</section>
+						<!--// Single Widget -->
+
+						<!-- Single Widget -->
+						<section class="widget widget-quick-links">
+							<h5 class="widget-title">QUICK LINKS</h5>
+							<ul>
+								<li>
+									<a href="services.html">Our Services</a>
+								</li>
+								<li>
+									<a href="features.html">Features</a>
+								</li>
+								<li>
+									<a href="about-us.html">About Us</a>
+								</li>
+								<li>
+									<a href="#">Help Centre</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact Us</a>
+								</li>
+							</ul>
+						</section>
+						<!--// Single Widget -->
+
+						<!-- Single Widget -->
+						<section class="widget widget-contact-info">
+							<h5 class="widget-title">Consultations</h5>
+							<ul>
+								<li>
+									<p>Monday to Friday</p>
+								</li>
+								<li>
+									<p>
+										7:00 a.m. to 12:00 noon, Sri Lanka time
+									</p>
+									<p>
+										45 minutes, one client per slot
+									</p>
+								</li>
+							</ul>
+						</section>
+						<!--// Single Widget -->
+
+					</div>
+				</div>
+			</div>
+			<!--// Footer Widgets Area -->
+
+			<!-- Footer Copyright Area -->
+			<div class="footer-area__copyright bg--dark">
+				<div class="container">
+					<div class="copyright text-center">
+						<p>&copy; 2026 <span> Universal Secretaries </span> Made with by <a
+								href="https://mediadefined.lk/">Media Defined (Pvt) Ltd</a></p>
+					</div>
+				</div>
+			</div>
+			<!--// Footer Copyright Area -->
+
+		</footer>
+		<!-- //Footer Area -->
+
+	</div><!-- //Main wrapper -->
+
+	<!-- Back To Top Start -->
+	<button id="backBTn" class="backbtn"><i class="fa fa-angle-up"></i></button>
+	<!-- //Back To Top end -->
+
+
+
+
+	<!-- JS
+    ============================================ -->
+
+	<!-- Modernizer & jQuery JS -->
+	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+	<script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- Plugins JS -->
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/ajax-mail.js"></script>
+	<script src="assets/js/active.js"></script>
+
+	<!-- Main JS -->
+	<script src="assets/js/scripts.js"></script>
+
+	<!-- WhatsApp Chatbot Bubble Widget JS -->
+	<script src="assets/js/whatsapp-chatbot.js"></script>
+
+	<!-- Appointment Popup Modal JS -->
+	<script src="assets/js/booking-consultation.js"></script>
+	<script src="assets/js/appointment-modal.js"></script>
+
+</body>
+
+</html>
