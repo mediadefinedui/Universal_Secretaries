@@ -8788,3 +8788,15 @@ Footer Styles
 section#team-area {
     margin-top: 100px;
 }
+
+.banner__single {
+    min-height: 700px !important;
+    height: 700px!important;
+}
+
+@media screen and (max-width: 1680px) {
+    .banner__single {
+    min-height: 500px !important;
+    height: 500px!important;
+}
+}
