@@ -5,7 +5,7 @@
 
 /* Adjust back-to-top button so it doesn't collide with WhatsApp bubble */
 #backBTn {
-  bottom: 98px !important;
+  bottom: 150px !important;
   right: 28px !important;
   z-index: 999 !important;
 }
@@ -188,7 +188,7 @@
 
 /* Chat Header */
 .wa-chat-header {
-  background: linear-gradient(135deg, #075e54 0%, #128c7e 100%);
+  background: rgb(5 138 203);
   color: #ffffff;
   padding: 16px 18px;
   display: flex;

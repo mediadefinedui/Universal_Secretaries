@@ -1465,27 +1465,24 @@ Helper Class
 }
 
 #backBTn {
-  position: fixed;
+position: fixed;
   z-index: 99;
-  right: 30px;
+  right: 50px;
   bottom: 30px;
-  height: 45px;
-  width: 45px;
-  line-height: 41px;
-  text-align: center;
-  background: #058acb;
   border: 0;
-  color: #ffffff;
+  color: #058acb;
   font-size: 22px;
   border-radius: 100%;
-  -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.1);
-  -webkit-animation: bounceIn 0.8s ease-in-out 1 both;
   animation: bounceIn 0.8s ease-in-out 1 both;
   display: none;
+  background-color: transparent;
 }
+
+#backBTn span.material-symbols-outlined{
+transform: rotate(270deg);
+    font-size: 50px;
+}
+
 
 button.plyr__play-large {
   background: #058acb;
