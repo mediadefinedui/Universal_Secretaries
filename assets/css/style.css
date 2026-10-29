@@ -2657,7 +2657,8 @@ Breadcrumb Styles
   background-color: #fafafa;
   background-image: url(../images/bg/breadcrumb-bg.webp) no-repeat scroll center center;
   background: url(../images/bg/breadcrumb-bg.webp) no-repeat scroll center center;
-  background-size: cover;
+  background-size: 100%;
+  background-color: #a4dbe4;
   position: relative;
 }
 
