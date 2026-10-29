@@ -2657,18 +2657,22 @@ Breadcrumb Styles
   background-color: #fafafa;
   background-image: url(../images/bg/breadcrumb-bg.webp) no-repeat scroll center center;
   background: url(../images/bg/breadcrumb-bg.webp) no-repeat scroll center center;
-  background-size: 100%;
-  background-color: #a4dbe4;
+  background-size: cover;
   position: relative;
 }
 
 .feature-banner{
   background-image: url(../images/banner/feature-banner.webp) no-repeat scroll center center;
   background: url(../images/banner/feature-banner.webp) no-repeat scroll center center;
-  background-size: cover;
   background-size: contain;
     background-position: right;
     background-color: #97d6df !important;
+}
+
+@media screen and (max-width: 480px) {
+.feature-banner{
+background-size: cover;
+}
 }
 
 .services-banner{
@@ -4600,7 +4604,7 @@ About Area
 
   .about-area__image:not(.about-area__image--right) img,
   .about-area__image:not(.about-area__image2) img {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
